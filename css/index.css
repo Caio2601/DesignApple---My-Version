@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a{
+    color: white;
+    text-decoration: 0;
+    margin-right: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin-top: 40px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+#card{
+    position: relative;
+    box-shadow: 0 0 10px gray;
+    padding: 10px;
+
+}
+
+#card2{
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+
+}
+
+.frase{position: absolute;}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.imgPrinc{
+    width: 330px;
+    height: 400px;
+}
+
+p{
+    font-size: small;
+}
+
+#principal{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 60px;
+   margin-bottom: 40px;
+}
+
+.tituloPrincipal{
+    font-size: 40px;
+    
+}
+
+.tituloAlt{
+    color: grey;
+    font-size: 40px;
+}
+
+.speed{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+}
+
+.teste12{
+    color: blue;
+    text-decoration: solid;
+    font-size: small;
+
+}
+
+.atendente{
+    display: flex;
+    align-items: center;
+    
+}
+
+#produtos{
+    display: flex;
+    justify-content: center;
+}
+
+.itens1{
+    text-align: center;
+    margin-right: 30px;
+}
+
+.img2{
+    width: 120px;
+    height: 90px;
+}
+
+.logoAple{
+    width: 20px;
+    height: 20px;
+}
+
+.ajuda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
